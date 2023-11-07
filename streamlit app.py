@@ -4,7 +4,7 @@ import pandas as pd
 st.header("Minha dashboard")
 
 # Especifique o caminho do arquivo CSV
-caminho_arquivo = "C:/Users/vinic/Desktop/app stream/sales_data_sample.csv"
+caminho_arquivo = "sales_data_sample.csv"
 
 # Abra o arquivo CSV e crie o DataFrame
 data_frame = pd.read_csv(caminho_arquivo, encoding='latin1')
