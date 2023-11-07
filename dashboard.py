@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.header("Minha dashboard")
+st.header("Meu dashboard")
 
 # Especifique o caminho do arquivo CSV
 caminho_arquivo = "C:/Users/vinic/Desktop/app stream/sales_data_sample.csv"
